@@ -1,0 +1,41 @@
+
+footer {
+  height: 250px;
+  background: #262C3A;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+footer p {
+	text-align: left;
+	width: 50%;
+	padding: 2rem;
+	color: #0FB2CC;
+	font-size: 1.3rem;
+}
+
+footer h3 {
+	margin-top: 2rem;
+	text-align: center;
+	color: #C5DB61;
+	font-size: 2rem;
+}
+
+footer a {
+	color: #C5DB61;
+}
+
+@media screen and (max-width: 600px) {
+	footer {
+		height: 60vh;
+		background: #262C3A;
+		display: flex;
+		flex-flow: column;
+		align-items: center;
+	}
+
+	footer p {
+		width: 75%;
+	}
+}
