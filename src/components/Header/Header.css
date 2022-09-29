@@ -1,0 +1,22 @@
+.header {
+  height: 250px;
+  background: #262C3A;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  z-index: 300;
+}
+
+.header img {
+  height: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 200px;
+  }
+  
+  .header img {
+    height: 200px;
+  }
+}

@@ -1,0 +1,56 @@
+.characters-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  width: 80%;
+  margin: 0 auto;
+}
+.character-card {
+  background: #0FB2CC;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  box-shadow: 2px 2px 20px #C5DB61;
+  border-radius: 5px;
+  width: 20%;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.character-card img {
+  width: 100%;
+}
+
+.name {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .characters-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 65%;
+    margin: 0 0;
+    margin-left: 3.5rem;
+
+  }
+
+  .character-card {
+    background: #0FB2CC;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+    box-shadow: 2px 2px 20px #C5DB61;
+    border-radius: 5px;
+    width: 100%;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
