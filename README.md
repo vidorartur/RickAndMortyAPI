@@ -1,0 +1,1 @@
+Este é um projeto autoral que tem como objetivo o treino de Fetch de API.
